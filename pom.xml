@@ -38,7 +38,16 @@
             </plugin>
         </plugins>
     </build>
-        
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub wolfcod Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/wolfcod/test-spark</url>
+        </repository>
+    </distributionManagement>
+
+
     <dependencies>
         <dependency>
             <groupId>com.sparkjava</groupId>
